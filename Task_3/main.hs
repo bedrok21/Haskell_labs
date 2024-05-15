@@ -75,7 +75,6 @@ acceptsSuffix dfa w =
                    else anySuffix state prefix xs visited
 
 
--- Приклад використання
 main :: IO ()
 main = do
   dfa <- readDFA "automat.txt"
